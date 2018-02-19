@@ -6,7 +6,7 @@ class Shoe
     @brand = brand
 
         #  BRANDS << brand if !(BRANDS.include?(brand))
-!(BRANDS.include?(brand)) and BRANDS << brand 
+!(BRANDS.include?(brand)) && BRANDS << brand 
 
 
   end
